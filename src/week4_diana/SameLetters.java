@@ -2,6 +2,12 @@ package week4_diana;
 
 public class SameLetters {
 
+    public static void main(String[] args) {
+
+        System.out.println(areSameLetters("abc", "cab"));
+        System.out.println(areSameLetters("abc", "abb"));
+    }
+
     public static boolean areSameLetters(String str1, String str2){
 
         if(str1.length() != str2.length()){
