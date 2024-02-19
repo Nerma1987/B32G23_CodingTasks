@@ -2,6 +2,11 @@ package week4_diana;
 
 public class frequencyOfChar {
 
+    public static void main(String[] args) {
+
+        System.out.println(frequencyOfCharacters("AAABBCDD"));
+    }
+
     public static String frequencyOfCharacters(String str){
 
         String result = "";
