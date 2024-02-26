@@ -1,6 +1,4 @@
-package week5;
-
-import java.util.*;
+package week5_gulnar;
 
 public class UniqueLetters {
 
