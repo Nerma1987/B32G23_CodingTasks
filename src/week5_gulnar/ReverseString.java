@@ -1,6 +1,4 @@
-package week5;
-
-import java.security.PublicKey;
+package week5_gulnar;
 
 public class ReverseString {
 
