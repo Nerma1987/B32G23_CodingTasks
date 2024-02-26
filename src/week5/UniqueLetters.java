@@ -24,6 +24,12 @@ public class UniqueLetters {
         return result;
     }
 
+    /*
+    ----String --> indexOf method -- first time it shows up
+    ----String --> LastIndexOf method -- last time it shows up
+
+     */
+
 
 }
 
