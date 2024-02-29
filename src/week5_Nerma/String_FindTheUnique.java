@@ -3,8 +3,10 @@ package week5_Nerma;
 public class String_FindTheUnique {
 
     public static void main(String[] args) {
+                  //00033366691011
         unique("AAABBBCCCDEF");
-
+                 // 0123456789
+                 // 036
     }
     public static void unique(String str){
 
@@ -13,6 +15,8 @@ public class String_FindTheUnique {
         for (int i = 0; i < str.length(); i++) {
         char each = str.charAt(i);
 
+          //  System.out.println("String.indexOf(ch) = " +  str.charAt(i) +  " lastIndexOf(ch) " + str.lastIndexOf(each));
+            System.out.println(str.charAt(i) + " = " + str.indexOf(each) + " " + str.lastIndexOf(each) );
         if(str.indexOf(each) == str.lastIndexOf(each)){
             unique += each;
 
