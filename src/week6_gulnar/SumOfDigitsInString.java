@@ -3,7 +3,7 @@ package week6_gulnar;
 public class SumOfDigitsInString {
     public static void main(String[] args) {
 
-        String str = "she2ij4h4j2k1";
+        String str = "45n1";
 
         System.out.println(sumOfDigitInString(str));
 
