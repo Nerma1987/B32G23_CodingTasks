@@ -8,7 +8,7 @@ import java.util.regex.Pattern;
 public class ValidationPassword {
     public static void main(String[] args) {
 
-String password="AZpk45kol";
+String password="1265@l3#SlokkjwA";
         System.out.println("checkPassword(password) = " + checkPassword(password));
 
     }
@@ -37,7 +37,11 @@ String password="AZpk45kol";
              if(Character.isDigit(ch)){
                  hasDigit= true;
              }
-             if(Character.isWhitespace(ch)){
+//             if(!Character.isWhitespace(ch)){
+//                 hasSpecialCharacter=true;
+//             }
+
+             if(!Character.isLetterOrDigit(ch)){
                  hasSpecialCharacter=true;
              }
          }
